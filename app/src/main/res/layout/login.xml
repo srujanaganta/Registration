@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_marginTop="30dp"
+        android:textColor="#000"
+        android:id="@+id/txtusr"
+        android:layout_below="@+id/log"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mbl"
+        android:textCursorDrawable="@null"
+
+
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_radius_rectangle_new"
+        android:padding="16dp"
+
+        android:layout_below="@+id/txtusr"
+        />
+
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_below="@+id/mbl"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:id="@+id/txtpwd" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pwd"
+        android:textCursorDrawable="@null"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:background="@drawable/border_radius_rectangle_new"
+        android:padding="16dp"
+        android:layout_below="@+id/txtpwd"
+
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New User Registration"
+        android:id="@+id/reg"
+        android:layout_below="@+id/nxt"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:visibility="gone"
+
+        android:background="@color/colorPrimary" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLICK HERE FOR FORGOT PASSWORD"
+        android:layout_below="@+id/reg"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/forgot"
+
+        android:visibility="gone"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:id="@+id/nxt"
+        android:gravity="center"
+        android:textColor="#fff"
+
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/pwd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Registration</string>
+    <string name="calendar">calendar</string>
+    <string name="string_choose_file">choose file</string>
+    <string name="string_upload_image">upload image</string>
+    <string name="string_view_image">view image</string>
+</resources>
